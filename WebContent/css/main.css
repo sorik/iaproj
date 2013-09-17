@@ -1,0 +1,137 @@
+
+.input-container {
+	height: 328px;
+    margin: -154px, 0, 0, -200px;
+    top: 30%;
+	width: 838px;
+	left: 5%;
+	position: absolute;
+	
+
+}
+
+#welcome {
+    height: 328px;
+    width: 520px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    display: block;  
+}
+
+#welcome-text {
+	color: #eee;
+	font-size: 20px;
+	font-weight: 300;
+	left: 0;
+	text-align: center;
+	text-shadow: #000 1px 2px;
+	width: 470px;
+	line-height: 22px;
+}
+
+#login {
+	height: 118px;
+    width: 300px;
+    left: 536px;
+	position: absolute;
+	top: 0px;
+
+}
+
+#register {
+	height: 118px;
+	width: 300px;
+	left: 536px;
+	position: absolute;
+	top: 131px;
+}
+
+.register-login-box {
+
+	border-radius: 4px;
+	border-bottom: 1px solid #F93636;
+	border-left: 1px solid #F71818;
+	border-right: 1px solid #F71818;
+	box-shadow: 0 1px 0 rgba(0,0,0,0.1);
+
+    background: #FC6767;
+    
+
+}
+
+.btn {
+    height: 30px;
+	float: right;
+	width: auto;
+	white-space: nowrap;
+	position: relative;
+	display: inline-block;
+	padding: 5px 10px;
+	font-weight: bold;
+	line-height: 18px;
+	border: 1px solid #ccc;
+	cursor: pointer;
+	border-radius: 4px;
+	margin-right: 12px;
+}
+.login-btn {
+    background-color: #8989ba;
+    border-color: #057ed0;
+    color: #fff;
+    text-shadow: 0 -1px 1px rgba(0,0,0,.025);
+    top: 25px;
+}
+
+.register-btn {
+    background-color: #a4b357;
+    border-color: #ec8b11;
+    color: #333;
+    text-shadow: 0 -1px 1px rgba(0,0,0,.025);
+    top: 15px;
+}
+
+.placeholding-input {
+	height: 28px;
+	overflow: visible;
+	left: 12px;
+	position: relative;
+	top: 12px;
+	color: #333;
+	width: 276px;
+}
+.text-input {
+	height: 28px;
+	border: 2px solid #ccc;
+	-webkit-box-shadow: inset 0 1px 0 #eee, #fff 0 1px 0;
+	box-shadow: inset 0 1px 0 #eee, #fff 0 1px 0;	
+	width: 266px;
+	margin: 0;
+}
+
+.email-input {
+	width: 266px;
+}
+
+.password {
+	top: 20px;
+	height: 30px;
+}
+
+.forgot-link {
+	left: 12px;
+	margin: 0;
+	position: absolute;
+	top: 92px;
+	width: 200px;
+	
+}
+
+.forgot {
+	color: #694474;
+	display: inline;
+	font-size: 13px;
+	line-height: 13px;
+	margin: 0;
+
+}

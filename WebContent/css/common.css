@@ -1,0 +1,44 @@
+
+body {
+  font-family: Arial,sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  color: #000000;
+}
+
+div {
+	display: block;
+}
+
+form {
+	font-size: 12px;
+	margin-bottom: 0;
+	display: block;
+}
+
+a {
+	text-decoration: none;
+}
+
+h2 {
+	    border-bottom: 1px solid #ff1a00;
+	    color: #006e2e;
+	    display: block;
+	    font-size: 16px;
+	    font-weight: 300;
+	    margin-bottom: 5px;
+	    padding: 1px 12px;
+	    position: relative;
+}
+	
+.layout-container {
+	bottom: 0;
+	left: 0;
+	max-height: 750px;
+	min-height: 545px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	display: block;
+	background-color: #6db3f2; 
+}

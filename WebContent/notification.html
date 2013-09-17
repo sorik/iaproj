@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SWEN90002 2013 Semester 2 Project 1</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <script src="jquery/jquery-1.10.2.js"  type="text/javascript"></script>
+    <script src="jquery/jquery-ui.js" type="text/javascript"></script>
+    <script src="js/notification.js" type="text/javascript" ></script>
+    <link rel="stylesheet" type="text/css" href="css/jquery-ui.css" />
+
+
+  </head>
+<body>
+    <div class="container">
+      <div id="message-container" class="jumbotron">
+        <div id="sent-confirmation" style="display: none;">
+            <h2>Successfully sent!</h2>
+            <p class="lead">We have sent you the registration email. Please check your mailbox and confirm you registration.</p>
+        </div>
+        <div id="sent-password" style="display: none;">
+            <h2>Successfully registered!</h2>
+            <p class="lead">We have sent you the email with your password. Please check your mailbox.</p>
+        </div>
+        <div id="sent-reminder" style="display: none;">
+            <h2>Successfully sent!</h2>
+            <p class="lead">We have sent you the email with your password. Please check your mailbox.</p>
+        </div>
+        <div id="sent-reset" style="display: none;">
+            <h2>Successfully reset your password</h2>
+            <p class="lead">We have sent you the email with your password. Please check your mailbox.</p>
+        </div>
+        <div id="already-registered" style="display: none;">
+            <h2>You are not confirmed your registration yet.</h2>
+            <p class="lead">You are registered your email but not confirmed your registration. Please check your mailbox to confirm your registration.</p>
+        </div>
+        <div id="already-confirmed" style="display: none;">
+            <h2>You are already registered.</h2>
+            <p class="lead">Your are already registered in this system. Please login with your password. If you forget your password, click Remind button, to receive your password.</p>
+            <p><a class="btn btn-lg btn-success" href="reminder.html">Remind</a></p>
+        </div>
+        <div id="already-sent-confirmation" style="display: none;">
+            <h2>You already registered your email a few minutes ago.</h2>
+            <p class="lead">At least 5 minutes should be passed after registering your email. Please check your mailbox.</p>
+        </div>
+        <div id="already-sent-reminder" style="display: none;">
+            <h2>You already reminded your password a few minutes ago.</h2>
+            <p class="lead">At least 5 minutes should be passed after reminding your password. Please check your mailbox.</p>
+        </div>
+        <div id="not-match-email-password" style="display: none;">
+            <h2>Email and Password not Matched.</h2>
+            <p class="lead">The email and password is not matched. Please check again.</p>
+        </div>
+        <div id="logged-out" style="display: none;">
+            <h2>You are successfully logged out.</h2>
+            <p class="lead">Thank you for staying out pages. See you again.</p>
+        </div>
+        <div id="deleted" style="display: none;">
+            <h2>Your email is successfully deleted.</h2>
+            <p class="lead">Thank you for staying out pages. See you again.</p>
+        </div>
+        <div id="not-match-logged-info" style="display: none;">
+            <h2>Fail to identify you.</h2>
+            <p class="lead">Your information on logged-in is not valid. Please try to login again.</p>
+        </div>
+        <div id="invalid-confirm-url" style="display: none;">
+            <h2>Fail to confirm your registration.</h2>
+            <p class="lead">The URL for the confirmation for your registration is invalid. Please register your email again to receive a valid URL.</p>
+        </div>
+        <div id="invalid-email" style="display: none;">
+            <h2>Invalid Email address.</h2>
+            <p class="lead">Please check email address again.</p>
+        </div>
+        <div id="invalid-password" style="display: none;">
+            <h2>Invalid Password</h2>
+            <p class="lead">Please check the password again.</p>
+        </div>
+        <div id="email-error" style="display: none;">
+            <h2>Sorry. Error occurs.</h2>
+            <p class="lead">An error occurs while sending an email to you. Please go back to main page and retry.</p>
+        </div>
+        <div id="no-such-email-error" style="display: none;">
+            <h2>You are not registered yet.</h2>
+            <p class="lead">We found that you are not registered yet. Please go back to main page and register your email.</p>
+        </div>
+        <div id="unknown" style="display: none;">
+            <h2>Sorry. Error occurs.</h2>
+            <p class="lead">An error occurs while processing your request. Please go back to main page and retry.</p>
+        </div>
+        <div id="default" style="display: none;">
+            <h2>Wrong Path</h2>
+            <p class="lead">You are here with invalid path. Please go back to main page.</p>
+        </div>
+        <p><a class="btn btn-lg btn-success" href="/proj1">Go Back to Main</a></p>
+      </div>
+    </div>
+</body>
+</html>
